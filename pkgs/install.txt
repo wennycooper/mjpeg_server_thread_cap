@@ -4,17 +4,25 @@ Instructions to install python, virtualenv and packages in IIIFRS(22004) server
 double click python-3.8.6-amd64.exe
 
 2. install pip3
-???
+cd pkgs
+python3 get-pip.py
 
-3. python create a new virtualenv
+3. install virtualenv
+pip3 install virtualenv-20.0.35-py2.py3-none-any.whl
 
-4. enter the virtualenv
+4. python create a new virtualenv
+mkdir envs
+cd envs
+virtualenv env001
 
-5. install pkgs
+5. enter the virtualenv
+envs/env001/Scripts/activate
+
+6. install pkgs
 pip3 install *.whl
 
-6. modify urls
+7. modify urls
 
-7. run 
+8. run 
 python mjpeg_server_thread_cap.py
 
