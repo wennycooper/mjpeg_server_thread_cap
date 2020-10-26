@@ -1,0 +1,20 @@
+Instructions to install python, virtualenv and packages in IIIFRS(22004) server
+
+1. install python 3.8.6
+double click python-3.8.6-amd64.exe
+
+2. install pip3
+???
+
+3. python create a new virtualenv
+
+4. enter the virtualenv
+
+5. install pkgs
+pip3 install *.whl
+
+6. modify urls
+
+7. run 
+python mjpeg_server_thread_cap.py
+
